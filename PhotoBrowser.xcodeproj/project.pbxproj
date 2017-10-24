@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79278F121F958D8000BAEB3D /* BrowserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79278F111F958D8000BAEB3D /* BrowserCell.swift */; };
 		792BB6861F9018B8003F9FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792BB6851F9018B8003F9FF1 /* AppDelegate.swift */; };
 		792BB6881F9018B8003F9FF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792BB6871F9018B8003F9FF1 /* ViewController.swift */; };
 		792BB68B1F9018B8003F9FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792BB6891F9018B8003F9FF1 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		792BB6901F9018B8003F9FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792BB68E1F9018B8003F9FF1 /* LaunchScreen.storyboard */; };
 		792BB69B1F9018B8003F9FF1 /* PhotoBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792BB69A1F9018B8003F9FF1 /* PhotoBrowserTests.swift */; };
 		792BB6A61F9018B8003F9FF1 /* PhotoBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792BB6A51F9018B8003F9FF1 /* PhotoBrowserUITests.swift */; };
+		792BB6B41F901B80003F9FF1 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792BB6B31F901B80003F9FF1 /* Photo.swift */; };
+		79B954001F91AC19000F370E /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B953FF1F91AC19000F370E /* ImageService.swift */; };
+		79B954041F91B983000F370E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B954031F91B983000F370E /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79278F111F958D8000BAEB3D /* BrowserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserCell.swift; sourceTree = "<group>"; };
 		792BB6821F9018B8003F9FF1 /* PhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		792BB6851F9018B8003F9FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		792BB6871F9018B8003F9FF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		792BB6A11F9018B8003F9FF1 /* PhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792BB6A51F9018B8003F9FF1 /* PhotoBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrowserUITests.swift; sourceTree = "<group>"; };
 		792BB6A71F9018B8003F9FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792BB6B31F901B80003F9FF1 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		79B953FF1F91AC19000F370E /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		79B954031F91B983000F370E /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				792BB6851F9018B8003F9FF1 /* AppDelegate.swift */,
+				79B953FF1F91AC19000F370E /* ImageService.swift */,
 				792BB6871F9018B8003F9FF1 /* ViewController.swift */,
+				79278F111F958D8000BAEB3D /* BrowserCell.swift */,
+				792BB6B31F901B80003F9FF1 /* Photo.swift */,
 				792BB6891F9018B8003F9FF1 /* Main.storyboard */,
+				79B954031F91B983000F370E /* PhotoViewController.swift */,
 				792BB68C1F9018B8003F9FF1 /* Assets.xcassets */,
 				792BB68E1F9018B8003F9FF1 /* LaunchScreen.storyboard */,
 				792BB6911F9018B8003F9FF1 /* Info.plist */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79278F121F958D8000BAEB3D /* BrowserCell.swift in Sources */,
+				792BB6B41F901B80003F9FF1 /* Photo.swift in Sources */,
 				792BB6881F9018B8003F9FF1 /* ViewController.swift in Sources */,
+				79B954001F91AC19000F370E /* ImageService.swift in Sources */,
 				792BB6861F9018B8003F9FF1 /* AppDelegate.swift in Sources */,
+				79B954041F91B983000F370E /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
