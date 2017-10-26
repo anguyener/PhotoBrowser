@@ -50,7 +50,7 @@ struct  Photo {
         let url = URL(string: urlStr)
 
         
-        self.init(id: id, owner: owner, secret: secret, server: server, farm: farm, title: title, ispublic: ispublic, isfriend: isfriend, isfamily: isfamily, url: url as! URL)
+        self.init(id: id, owner: owner, secret: secret, server: server, farm: farm, title: title, ispublic: ispublic, isfriend: isfriend, isfamily: isfamily, url: url!)
    
     }
 }

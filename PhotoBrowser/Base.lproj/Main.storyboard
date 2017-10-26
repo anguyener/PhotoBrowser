@@ -80,7 +80,7 @@
         <!--Photo View Controller-->
         <scene sceneID="hFn-vN-pJg">
             <objects>
-                <viewController id="IDF-nP-qrU" customClass="PhotoViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PhotoViewController" id="IDF-nP-qrU" customClass="PhotoViewController" customModule="PhotoBrowser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fNa-hq-v41">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
